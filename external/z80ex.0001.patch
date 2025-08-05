@@ -1,3 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 97c3ba2..7aa5ff7 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,4 +1,4 @@
+-cmake_minimum_required (VERSION 2.8)
++cmake_minimum_required (VERSION 3.10)
+ project (z80ex)
+ 
+ set (API_REVISION 1)
 diff --git a/z80ex.c b/z80ex.c
 index 3cab53e..c95f842 100644
 --- a/z80ex.c
