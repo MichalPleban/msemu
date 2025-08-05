@@ -720,7 +720,7 @@ int ms_run(ms_ctx* ms)
 	 */
 
 	// Display startup message
-	ms_power_off(ms);
+	ms_power_on_reset(ms);
 
 	lasttick = SDL_GetTicks();
 
